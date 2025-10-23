@@ -7,15 +7,25 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "What does the Church teach about forgiveness?",
+    prompt: "What does the Church teach about forgiveness?",
+    icon: "circle-question",
+  },
+  {
+    label: "Why should I pray to Mary?",
+    prompt: "Why should I pray to Mary?",
+    icon: "circle-question",
+  },
+  {
+    label: "What happens during the Liturgy of the Eucharist?",
+    prompt: "What happens during the Liturgy of the Eucharist?",
     icon: "circle-question",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Ask me about faith, scripture, prayer, or daily guidance.";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "How may I guide you today, my friend?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
